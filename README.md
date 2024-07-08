@@ -1,4 +1,5 @@
 Overview
+
 Business Insights 360 is a Power BI dashboard designed to empower AtliQ Hardware with actionable insights across Finance, Sales, Marketing, and Supply Chain.
 
 Key Insights:
@@ -13,7 +14,7 @@ Supply Chain View: Surveyed the variance of Actual Sales and Forecast accuracy.
 Executive View: Examined Yearly Trends by Revenue, GM %, NP % & Market Share %. Listed the TOP 5 Customers & Products by Revenue Contribution.
 
 Live Dashboard
-Explore the live dashboard Project Link
+Explore the live dashboard https://app.powerbi.com/view?r=eyJrIjoiYmUyZGVjNmQtNTBiMC00YjI3LTk1YzctOTY5NTM5M2M0NDY0IiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9
 
 Data Sources
 The dashboard seamlessly collects and utilizes data from two primary sources:
