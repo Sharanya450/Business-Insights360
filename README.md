@@ -107,55 +107,55 @@ Understanding the available data is crucial before analysis. Get a good grasp of
 
 **gdb041**:
 
-**dim_customer**:
+1.  **dim_customer:**  
 
 * 27 distinct markets (e.g., India, USA, Spain)
 * 75 distinct customers throughout the market
 * 2 types of platforms: Brick & Mortar (Physical/offline store) and E-commerce (Online Store like Amazon, Flipkart)
 * Three channels: Retailer, Direct, Distributors
 
-**dim_market**:
+2. **dim_market:**
 
 * 27 distinct markets (e.g., India, USA, Spain)
 * 7 sub-zones
 * 4 regions: APAC, EU, NAN, LATAM
 
-**dim_product**:
+3. **dim_product:**
 
 * Divisions: P&A (Peripherals, Accessories), PC (Notebook, Desktop), N&S (Networking, Storage)
 * 14 different categories, e.g., Internal HDD, keyboard
 * Different variants available for the same product
 
-**fact_forecast_monthly**:
+4. **fact_forecast_monthly:**
 
 * Used to forecast customer needs in advance, leading to higher customer satisfaction and reduced storage costs
 * Denormalized for analytical work
 * All dates of the month replaced by the start date of the month
 * Contains forecast quantity needs
 
-**fact_sales_monthly**:
+5. **fact_sales_monthly:**
 
 * Similar to fact_forecast_monthly but with sold quantity instead of forecast value
 
 **gdb056**:
 
-**freight_cost**:
+1. **freight_cost**:
 
 * Details of travel and other costs for each market with fiscal year
 
-**gross_price**:
+2. **gross_price:**
 
 * Details of gross prices with product code
 
-**manufacturing_cost**:
+3. **manufacturing_cost:**
 
 * Details of manufacturing costs with product code and year
 
-**pre_invoice_deductions**:
+4. **pre_invoice_deductions:**
 
 * Details of pre-invoice deductions percentage for each customer with year
 
-**post_invoice_deductions**:
+5. **post_invoice_deductions:**
 
 * Post-invoice deductions and other deduction details
 
@@ -163,7 +163,8 @@ Understanding the available data is crucial before analysis. Get a good grasp of
 
 * As the database is MySQL in this project, import the datasets from the MySQL database to PowerBI by providing the database access credentials.
 
-**Dashboard designing**
+### Dashboard designing
+
 
 Based on the mock ups received as requirement, the team will start designing the visuals and create measure as and when required.
 
@@ -193,6 +194,19 @@ In Home view, all the views button will be available. User will land on specific
  * Insights into business terminologies and their implications on data analysis
 
 This project has not only enhanced my technical skills but also provided real-world exposure to project management and business analysis.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
  
 
