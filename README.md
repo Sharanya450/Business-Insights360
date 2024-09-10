@@ -84,17 +84,20 @@ Dimension Table: Static data like customer and product details
 Fact Table: Data about transactions
 
 gdb041:
+
 dim_customer:
 
 27 distinct markets (e.g., India, USA, Spain)
 75 distinct customers throughout the market
 2 types of platforms: Brick & Mortar (Physical/offline store) and E-commerce (Online Store like Amazon, Flipkart)
 Three channels: Retailer, Direct, Distributors
+
 dim_market:
 
 27 distinct markets (e.g., India, USA, Spain)
 7 sub-zones
 4 regions: APAC, EU, NAN, LATAM
+
 dim_product:
 
 Divisions: P&A (Peripherals, Accessories), PC (Notebook, Desktop), N&S (Networking, Storage)
@@ -106,9 +109,11 @@ Used to forecast customer needs in advance, leading to higher customer satisfact
 Denormalized for analytical work
 All dates of the month replaced by the start date of the month
 Contains forecast quantity needs
+
 fact_sales_monthly:
 
 Similar to fact_forecast_monthly but with sold quantity instead of forecast value
+
 gdb056:
 freight_cost:
 
